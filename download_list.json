@@ -1,0 +1,275 @@
+[
+  {
+    "id": "rigveda_orig",
+    "tradition": "India/Vedic",
+    "language": "Sanskrit",
+    "type": "original",
+    "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/ri/rigveda.txt"
+  },
+  {
+    "id": "rigveda_trans",
+    "tradition": "India/Vedic",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/hin/rigveda/rg00.htm"
+  },
+  {
+    "id": "samaveda_orig",
+    "tradition": "India/Vedic",
+    "language": "Sanskrit",
+    "type": "original",
+    "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/sa/samaveda.txt"
+  },
+  {
+    "id": "samaveda_trans",
+    "tradition": "India/Vedic",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/hin/sv.htm"
+  },
+  {
+    "id": "yajurveda_orig",
+    "tradition": "India/Vedic",
+    "language": "Sanskrit",
+    "type": "original",
+    "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/yj/yajurveda.txt"
+  },
+  {
+    "id": "yajurveda_trans",
+    "tradition": "India/Vedic",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/hin/yv.htm"
+  },
+  {
+    "id": "atharvaveda_orig",
+    "tradition": "India/Vedic",
+    "language": "Sanskrit",
+    "type": "original",
+    "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/av/atharvaveda.txt"
+  },
+  {
+    "id": "atharvaveda_trans",
+    "tradition": "India/Vedic",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/hin/av.htm"
+  },
+  {
+    "id": "upanishads_orig",
+    "tradition": "India/Vedic",
+    "language": "Sanskrit",
+    "type": "original",
+    "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/upanisad/upanisads.txt"
+  },
+  {
+    "id": "upanishads_trans",
+    "tradition": "India/Vedic",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/hin/sbe01/index.htm"
+  },
+  {
+    "id": "mahabharata_orig",
+    "tradition": "India/Epic",
+    "language": "Sanskrit",
+    "type": "original",
+    "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/mahabharata/mbh.txt"
+  },
+  {
+    "id": "mahabharata_trans",
+    "tradition": "India/Epic",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/hin/maha/index.htm"
+  },
+  {
+    "id": "ramayana_orig",
+    "tradition": "India/Epic",
+    "language": "Sanskrit",
+    "type": "original",
+    "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/ramayana/rmy.txt"
+  },
+  {
+    "id": "ramayana_trans",
+    "tradition": "India/Epic",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/hin/rama/index.htm"
+  },
+  {
+    "id": "bhagavad_gita_orig",
+    "tradition": "India/Vedic",
+    "language": "Sanskrit",
+    "type": "original",
+    "url": "https://raw.githubusercontent.com/vedicscriptures/bhagavad-gita/master/gita_sanskrit.txt"
+  },
+  {
+    "id": "bhagavad_gita_trans",
+    "tradition": "India/Vedic",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/hin/gita/index.htm"
+  },
+  {
+    "id": "dhammapada_orig",
+    "tradition": "Buddhism/Pali",
+    "language": "Pali",
+    "type": "original",
+    "url": "https://suttacentral.net/dhp/pi"
+  },
+  {
+    "id": "dhammapada_trans",
+    "tradition": "Buddhism/Pali",
+    "language": "English",
+    "type": "translation",
+    "url": "https://suttacentral.net/dhp/en"
+  },
+  {
+    "id": "mn_orig",
+    "tradition": "Buddhism/Pali",
+    "language": "Pali",
+    "type": "original",
+    "url": "https://suttacentral.net/mn/pi"
+  },
+  {
+    "id": "mn_trans",
+    "tradition": "Buddhism/Pali",
+    "language": "English",
+    "type": "translation",
+    "url": "https://suttacentral.net/mn/en"
+  },
+  {
+    "id": "dao_de_jing_orig",
+    "tradition": "China/Daoism",
+    "language": "Chinese",
+    "type": "original",
+    "url": "https://ctext.org/dao-de-jing/zh?format=txt"
+  },
+  {
+    "id": "dao_de_jing_trans",
+    "tradition": "China/Daoism",
+    "language": "English",
+    "type": "translation",
+    "url": "https://ctext.org/dao-de-jing/en?format=txt"
+  },
+  {
+    "id": "zhuangzi_orig",
+    "tradition": "China/Daoism",
+    "language": "Chinese",
+    "type": "original",
+    "url": "https://ctext.org/zhuangzi/zh?format=txt"
+  },
+  {
+    "id": "zhuangzi_trans",
+    "tradition": "China/Daoism",
+    "language": "English",
+    "type": "translation",
+    "url": "https://ctext.org/zhuangzi/en?format=txt"
+  },
+  {
+    "id": "gilgamesh_orig",
+    "tradition": "Mesopotamia",
+    "language": "Akkadian/Sumerian",
+    "type": "original",
+    "url": "https://etcsl.orinst.ox.ac.uk/translation/ETCSLtexte2/e2.1.1.txt"
+  },
+  {
+    "id": "gilgamesh_trans",
+    "tradition": "Mesopotamia",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/ane/eog/index.htm"
+  },
+  {
+    "id": "pyramid_texts_trans",
+    "tradition": "Egypt",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/egy/pyt/index.htm"
+  },
+  {
+    "id": "book_of_dead_trans",
+    "tradition": "Egypt",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/egy/ebod/index.htm"
+  },
+  {
+    "id": "iliad_trans",
+    "tradition": "Greece",
+    "language": "English",
+    "type": "translation",
+    "url": "https://www.gutenberg.org/cache/epub/6130/pg6130.txt"
+  },
+  {
+    "id": "odyssey_trans",
+    "tradition": "Greece",
+    "language": "English",
+    "type": "translation",
+    "url": "https://www.gutenberg.org/cache/epub/1727/pg1727.txt"
+  },
+  {
+    "id": "poetic_edda_trans",
+    "tradition": "Norse",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/neu/poe/index.htm"
+  },
+  {
+    "id": "tanakh_trans",
+    "tradition": "Judaism",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/bib/oldtest/index.htm"
+  },
+  {
+    "id": "new_testament_trans",
+    "tradition": "Christianity",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/bib/cmt/index.htm"
+  },
+  {
+    "id": "quran_trans",
+    "tradition": "Islam",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/isl/quran.htm"
+  },
+  {
+    "id": "popol_vuh_trans",
+    "tradition": "Maya",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/nam/maya/pvuheng.htm"
+  },
+  {
+    "id": "yoruba_trans",
+    "tradition": "Africa/Yoruba",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/afr/yor/index.htm"
+  },
+  {
+    "id": "maori_trans",
+    "tradition": "Oceania/Maori",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/pac/mai/index.htm"
+  },
+  {
+    "id": "avesta_trans",
+    "tradition": "Zoroastrian",
+    "language": "English",
+    "type": "translation",
+    "url": "http://www.sacred-texts.com/zor/avesta/index.htm"
+  },
+  {
+    "id": "guru_granth_sahib_trans",
+    "tradition": "Sikhism",
+    "language": "English",
+    "type": "translation",
+    "url": "https://www.sikhiwiki.org/index.php/Siri_Guru_Granth_Sahib_online"
+  }
+]

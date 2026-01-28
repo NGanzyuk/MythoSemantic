@@ -1,9 +1,10 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-<<<<<<< HEAD
-# !/usr/bin/env python3
+
 import csv
 import hashlib
 import json
+import logging
 import re
 from datetime import datetime
 from pathlib import Path
@@ -11,250 +12,33 @@ from pathlib import Path
 import requests
 import unicodedata
 from bs4 import BeautifulSoup
-=======
-#!/usr/bin/env python3
-import os
-import json
-import hashlib
-import requests
-import csv
-from datetime import datetime
-from bs4 import BeautifulSoup
-import unicodedata
-import re
->>>>>>> 4a795dfec36636cadf0af882add27aafd964cfab
 
-# -------------------------------------------------------------------------
-# 1. Полный список текстов (ORIGINAL + TRANSLATION)
-# Включает все древние, редкие и мировые традиции (100+ текстов)
-# -------------------------------------------------------------------------
-DOWNLOAD_LIST = [
-    # ===== Индия =====
-<<<<<<< HEAD
-    {"id": "rigveda_orig", "tradition": "India/Vedic", "language": "Sanskrit", "type": "original",
-     "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/ri/rigveda.txt"},
-    {"id": "rigveda_trans", "tradition": "India/Vedic", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/hin/rigveda/rg00.htm"},
-    {"id": "samaveda_orig", "tradition": "India/Vedic", "language": "Sanskrit", "type": "original",
-     "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/sa/samaveda.txt"},
-    {"id": "samaveda_trans", "tradition": "India/Vedic", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/hin/sv.htm"},
-    {"id": "yajurveda_orig", "tradition": "India/Vedic", "language": "Sanskrit", "type": "original",
-     "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/yj/yajurveda.txt"},
-    {"id": "yajurveda_trans", "tradition": "India/Vedic", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/hin/yv.htm"},
-    {"id": "atharvaveda_orig", "tradition": "India/Vedic", "language": "Sanskrit", "type": "original",
-     "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/av/atharvaveda.txt"},
-    {"id": "atharvaveda_trans", "tradition": "India/Vedic", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/hin/av.htm"},
-    {"id": "upanishads_orig", "tradition": "India/Vedic", "language": "Sanskrit", "type": "original",
-     "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/upanisad/upanisads.txt"},
-    {"id": "upanishads_trans", "tradition": "India/Vedic", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/hin/sbe01/index.htm"},
-    {"id": "mahabharata_orig", "tradition": "India/Epic", "language": "Sanskrit", "type": "original",
-     "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/mahabharata/mbh.txt"},
-    {"id": "mahabharata_trans", "tradition": "India/Epic", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/hin/maha/index.htm"},
-    {"id": "ramayana_orig", "tradition": "India/Epic", "language": "Sanskrit", "type": "original",
-     "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/ramayana/rmy.txt"},
-    {"id": "ramayana_trans", "tradition": "India/Epic", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/hin/rama/index.htm"},
-    {"id": "bhagavad_gita_orig", "tradition": "India/Vedic", "language": "Sanskrit", "type": "original",
-     "url": "https://raw.githubusercontent.com/vedicscriptures/bhagavad-gita/master/gita_sanskrit.txt"},
-    {"id": "bhagavad_gita_trans", "tradition": "India/Vedic", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/hin/gita/index.htm"},
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
-    # ===== Буддизм =====
-    {"id": "dhammapada_orig", "tradition": "Buddhism/Pali", "language": "Pali", "type": "original",
-     "url": "https://suttacentral.net/dhp/pi"},
-    {"id": "dhammapada_trans", "tradition": "Buddhism/Pali", "language": "English", "type": "translation",
-     "url": "https://suttacentral.net/dhp/en"},
-    {"id": "mn_orig", "tradition": "Buddhism/Pali", "language": "Pali", "type": "original",
-     "url": "https://suttacentral.net/mn/pi"},
-    {"id": "mn_trans", "tradition": "Buddhism/Pali", "language": "English", "type": "translation",
-     "url": "https://suttacentral.net/mn/en"},
-
-    # ===== Китай =====
-    {"id": "dao_de_jing_orig", "tradition": "China/Daoism", "language": "Chinese", "type": "original",
-     "url": "https://ctext.org/dao-de-jing/zh?format=txt"},
-    {"id": "dao_de_jing_trans", "tradition": "China/Daoism", "language": "English", "type": "translation",
-     "url": "https://ctext.org/dao-de-jing/en?format=txt"},
-    {"id": "zhuangzi_orig", "tradition": "China/Daoism", "language": "Chinese", "type": "original",
-     "url": "https://ctext.org/zhuangzi/zh?format=txt"},
-    {"id": "zhuangzi_trans", "tradition": "China/Daoism", "language": "English", "type": "translation",
-     "url": "https://ctext.org/zhuangzi/en?format=txt"},
-
-    # ===== Месопотамия =====
-    {"id": "gilgamesh_orig", "tradition": "Mesopotamia", "language": "Akkadian/Sumerian", "type": "original",
-     "url": "https://etcsl.orinst.ox.ac.uk/translation/ETCSLtexte2/e2.1.1.txt"},
-    {"id": "gilgamesh_trans", "tradition": "Mesopotamia", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/ane/eog/index.htm"},
-
-    # ===== Египет =====
-    {"id": "pyramid_texts_trans", "tradition": "Egypt", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/egy/pyt/index.htm"},
-    {"id": "book_of_dead_trans", "tradition": "Egypt", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/egy/ebod/index.htm"},
-
-    # ===== Греция =====
-    {"id": "iliad_trans", "tradition": "Greece", "language": "English", "type": "translation",
-     "url": "https://www.gutenberg.org/cache/epub/6130/pg6130.txt"},
-    {"id": "odyssey_trans", "tradition": "Greece", "language": "English", "type": "translation",
-     "url": "https://www.gutenberg.org/cache/epub/1727/pg1727.txt"},
-
-    # ===== Сканднавия =====
-    {"id": "poetic_edda_trans", "tradition": "Norse", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/neu/poe/index.htm"},
-
-    # ===== Абрахамические религии =====
-    {"id": "tanakh_trans", "tradition": "Judaism", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/bib/oldtest/index.htm"},
-    {"id": "new_testament_trans", "tradition": "Christianity", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/bib/cmt/index.htm"},
-    {"id": "quran_trans", "tradition": "Islam", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/isl/quran.htm"},
-
-    # ===== Америка =====
-    {"id": "popol_vuh_trans", "tradition": "Maya", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/nam/maya/pvuheng.htm"},
-
-    # ===== Африка и Океания =====
-    {"id": "yoruba_trans", "tradition": "Africa/Yoruba", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/afr/yor/index.htm"},
-    {"id": "maori_trans", "tradition": "Oceania/Maori", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/pac/mai/index.htm"},
-
-    # ===== Редкие традиции =====
-    {"id": "avesta_trans", "tradition": "Zoroastrian", "language": "English", "type": "translation",
-     "url": "http://www.sacred-texts.com/zor/avesta/index.htm"},
-    {"id": "guru_granth_sahib_trans", "tradition": "Sikhism", "language": "English", "type": "translation",
-     "url": "https://www.sikhiwiki.org/index.php/Siri_Guru_Granth_Sahib_online"}
-=======
-    {"id": "rigveda_orig", "tradition": "India/Vedic", "language": "Sanskrit", "type": "original", "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/ri/rigveda.txt"},
-    {"id": "rigveda_trans", "tradition": "India/Vedic", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/hin/rigveda/rg00.htm"},
-    {"id": "samaveda_orig", "tradition": "India/Vedic", "language": "Sanskrit", "type": "original", "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/sa/samaveda.txt"},
-    {"id": "samaveda_trans", "tradition": "India/Vedic", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/hin/sv.htm"},
-    {"id": "yajurveda_orig", "tradition": "India/Vedic", "language": "Sanskrit", "type": "original", "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/yj/yajurveda.txt"},
-    {"id": "yajurveda_trans", "tradition": "India/Vedic", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/hin/yv.htm"},
-    {"id": "atharvaveda_orig", "tradition": "India/Vedic", "language": "Sanskrit", "type": "original", "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/av/atharvaveda.txt"},
-    {"id": "atharvaveda_trans", "tradition": "India/Vedic", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/hin/av.htm"},
-    {"id": "upanishads_orig", "tradition": "India/Vedic", "language": "Sanskrit", "type": "original", "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/upanisad/upanisads.txt"},
-    {"id": "upanishads_trans", "tradition": "India/Vedic", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/hin/sbe01/index.htm"},
-    {"id": "mahabharata_orig", "tradition": "India/Epic", "language": "Sanskrit", "type": "original", "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/mahabharata/mbh.txt"},
-    {"id": "mahabharata_trans", "tradition": "India/Epic", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/hin/maha/index.htm"},
-    {"id": "ramayana_orig", "tradition": "India/Epic", "language": "Sanskrit", "type": "original", "url": "https://raw.githubusercontent.com/tyndallm/GRETIL/master/ramayana/rmy.txt"},
-    {"id": "ramayana_trans", "tradition": "India/Epic", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/hin/rama/index.htm"},
-    {"id": "bhagavad_gita_orig", "tradition": "India/Vedic", "language": "Sanskrit", "type": "original", "url": "https://raw.githubusercontent.com/vedicscriptures/bhagavad-gita/master/gita_sanskrit.txt"},
-    {"id": "bhagavad_gita_trans", "tradition": "India/Vedic", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/hin/gita/index.htm"},
-
-    # ===== Буддизм =====
-    {"id": "dhammapada_orig", "tradition": "Buddhism/Pali", "language": "Pali", "type": "original", "url": "https://suttacentral.net/dhp/pi"},
-    {"id": "dhammapada_trans", "tradition": "Buddhism/Pali", "language": "English", "type": "translation", "url": "https://suttacentral.net/dhp/en"},
-    {"id": "mn_orig", "tradition": "Buddhism/Pali", "language": "Pali", "type": "original", "url": "https://suttacentral.net/mn/pi"},
-    {"id": "mn_trans", "tradition": "Buddhism/Pali", "language": "English", "type": "translation", "url": "https://suttacentral.net/mn/en"},
-
-    # ===== Китай =====
-    {"id": "dao_de_jing_orig", "tradition": "China/Daoism", "language": "Chinese", "type": "original", "url": "https://ctext.org/dao-de-jing/zh?format=txt"},
-    {"id": "dao_de_jing_trans", "tradition": "China/Daoism", "language": "English", "type": "translation", "url": "https://ctext.org/dao-de-jing/en?format=txt"},
-    {"id": "zhuangzi_orig", "tradition": "China/Daoism", "language": "Chinese", "type": "original", "url": "https://ctext.org/zhuangzi/zh?format=txt"},
-    {"id": "zhuangzi_trans", "tradition": "China/Daoism", "language": "English", "type": "translation", "url": "https://ctext.org/zhuangzi/en?format=txt"},
-
-    # ===== Месопотамия =====
-    {"id": "gilgamesh_orig", "tradition": "Mesopotamia", "language": "Akkadian/Sumerian", "type": "original", "url": "https://etcsl.orinst.ox.ac.uk/translation/ETCSLtexte2/e2.1.1.txt"},
-    {"id": "gilgamesh_trans", "tradition": "Mesopotamia", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/ane/eog/index.htm"},
-
-    # ===== Египет =====
-    {"id": "pyramid_texts_trans", "tradition": "Egypt", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/egy/pyt/index.htm"},
-    {"id": "book_of_dead_trans", "tradition": "Egypt", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/egy/ebod/index.htm"},
-
-    # ===== Греция =====
-    {"id": "iliad_trans", "tradition": "Greece", "language": "English", "type": "translation", "url": "https://www.gutenberg.org/cache/epub/6130/pg6130.txt"},
-    {"id": "odyssey_trans", "tradition": "Greece", "language": "English", "type": "translation", "url": "https://www.gutenberg.org/cache/epub/1727/pg1727.txt"},
-
-    # ===== Сканднавия =====
-    {"id": "poetic_edda_trans", "tradition": "Norse", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/neu/poe/index.htm"},
-
-    # ===== Абрахамические религии =====
-    {"id": "tanakh_trans", "tradition": "Judaism", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/bib/oldtest/index.htm"},
-    {"id": "new_testament_trans", "tradition": "Christianity", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/bib/cmt/index.htm"},
-    {"id": "quran_trans", "tradition": "Islam", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/isl/quran.htm"},
-
-    # ===== Америка =====
-    {"id": "popol_vuh_trans", "tradition": "Maya", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/nam/maya/pvuheng.htm"},
-
-    # ===== Африка и Океания =====
-    {"id": "yoruba_trans", "tradition": "Africa/Yoruba", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/afr/yor/index.htm"},
-    {"id": "maori_trans", "tradition": "Oceania/Maori", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/pac/mai/index.htm"},
-
-    # ===== Редкие традиции =====
-    {"id": "avesta_trans", "tradition": "Zoroastrian", "language": "English", "type": "translation", "url": "http://www.sacred-texts.com/zor/avesta/index.htm"},
-    {"id": "guru_granth_sahib_trans", "tradition": "Sikhism", "language": "English", "type": "translation", "url": "https://www.sikhiwiki.org/index.php/Siri_Guru_Granth_Sahib_online"}
->>>>>>> 4a795dfec36636cadf0af882add27aafd964cfab
-]
-
-# -------------------------------------------------------------------------
-# Остальной код такой же, как в build_corpus.py
-# Скачивание, HTML-парсинг, нормализация, сохранение метаданных и каталога
-# -------------------------------------------------------------------------
-
-<<<<<<< HEAD
-USER_AGENT = "Mozilla/5.0 (compatible; CorpusBuilder/1.0; +https://example.com/bot)"
-TIMEOUT = 30
-MAX_RETRIES = 2
+DOWNLOAD_LIST_FILE = "download_list.json"
+CORPUS_DIR = Path("corpus")
+METADATA_FILE = CORPUS_DIR / "corpus_metadata.json"
+CATALOG_FILE = CORPUS_DIR / "corpus_catalog.csv"
 
 
-def ensure_dir(path):
-    path.mkdir(parents=True, exist_ok=True)
+def load_download_list():
+    with open(DOWNLOAD_LIST_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
-def md5(data):
+def md5(data: bytes) -> str:
     return hashlib.md5(data).hexdigest()
 
 
-def download_file(url):
-    headers = {"User-Agent": USER_AGENT}
-    for _ in range(MAX_RETRIES + 1):
-        try:
-            response = requests.get(url, headers=headers, timeout=TIMEOUT)
-            response.raise_for_status()
-            response.encoding = response.apparent_encoding
-            return response.content
-        except:
-            continue
-    raise Exception(f"Failed to download {url}")
+def download_file(url: str) -> bytes:
+    logger.info(f"Загрузка: {url}")
+    response = requests.get(url, timeout=30)
+    response.raise_for_status()
+    return response.content
 
 
-def html_to_text(html):
-    try:
-        html_str = html.decode('utf-8', errors='replace')
-    except:
-        html_str = html.decode('latin1', errors='replace')
-    soup = BeautifulSoup(html_str, "html.parser")
-    for script in soup(["script", "style"]):
-        script.decompose()
-    text = soup.get_text(separator="\n")
-    return "\n".join(line.strip() for line in text.splitlines() if line.strip())
-
-
-def normalize_text(text):
-=======
-def ensure_dir(path):
-    if not os.path.exists(path):
-        os.makedirs(path)
-
-def md5(data):
-    import hashlib
-    return hashlib.md5(data).hexdigest()
-
-def download_file(url):
-    import requests
-    print(f"Downloading: {url}")
-    r = requests.get(url, timeout=30)
-    r.raise_for_status()
-    return r.content
-
-def html_to_text(html_content):
-    from bs4 import BeautifulSoup
+def html_to_text(html_content: bytes) -> str:
     soup = BeautifulSoup(html_content, "html.parser")
     for script in soup(["script", "style"]):
         script.extract()
@@ -262,44 +46,48 @@ def html_to_text(html_content):
     lines = [line.strip() for line in text.splitlines()]
     return "\n".join(line for line in lines if line)
 
-def normalize_text(text):
-    import unicodedata, re
->>>>>>> 4a795dfec36636cadf0af882add27aafd964cfab
+
+def normalize_text(text: str) -> str:
     text = unicodedata.normalize('NFC', text)
     text = re.sub(r'[ \t]+', ' ', text)
     text = re.sub(r'\n+', '\n', text)
     return text.strip()
 
-<<<<<<< HEAD
 
 def build_corpus():
-    ensure_dir(Path("corpus"))
-=======
-def build_corpus():
-    ensure_dir("corpus")
->>>>>>> 4a795dfec36636cadf0af882add27aafd964cfab
+    ensure_dir(CORPUS_DIR)
     metadata = []
     catalog_rows = []
 
-    for item in DOWNLOAD_LIST:
-<<<<<<< HEAD
-        tid, tradition, lang, ftype, url = item["id"], item["tradition"], item["language"], item["type"], item["url"]
-        tradition_safe = tradition.replace('/', '_').replace(' ', '_')
-        folder = Path("corpus") / tradition_safe / tid
+    download_list = load_download_list()
+
+    for item in download_list:
+        tid = item["id"]
+        tradition = item["tradition"]
+        lang = item["language"]
+        ftype = item["type"]
+        url = item["url"]
+
+        tradition_path = tradition.replace('/', '_').replace(' ', '_')
+        folder = CORPUS_DIR / tradition_path / tid
         ensure_dir(folder)
         filename = folder / f"{tid}.txt"
 
         try:
             data = download_file(url)
-            if b"<html" in data[:200].lower() or b"<!doctype html" in data[:200].lower():
+
+            if b"<html" in data[:150].lower():
+                logger.debug(f"{tid}: Обнаружен HTML, преобразуем в текст")
                 text = html_to_text(data)
-                data = normalize_text(text).encode("utf-8")
-            if not data:
-                raise ValueError("Empty content")
-            with open(filename, "wb") as f:
-                f.write(data)
+                text = normalize_text(text)
+                data = text.encode("utf-8")
+
+            filename.parent.mkdir(parents=True, exist_ok=True)
+            filename.write_bytes(data)
+
             h = md5(data)
-            metadata.append({
+
+            meta = {
                 "id": tid,
                 "tradition": tradition,
                 "language": lang,
@@ -307,71 +95,27 @@ def build_corpus():
                 "url": url,
                 "date_downloaded": datetime.utcnow().isoformat(),
                 "md5": h,
-                "path": str(filename)
-            })
-            catalog_rows.append([tid, tradition, lang, ftype, str(filename), url, h])
-        except Exception:
+                "path": str(filename.resolve())
+            }
+            metadata.append(meta)
+            catalog_rows.append([tid, tradition, lang, ftype, str(filename.resolve()), url, h])
+
+            logger.info(f"Успешно сохранено: {tid}")
+
+        except Exception as e:
+            logger.error(f"Не удалось обработать {tid}: {e}")
             continue
 
-    with open("corpus_metadata.json", "w", encoding="utf-8") as f:
+    with open(METADATA_FILE, "w", encoding="utf-8") as f:
         json.dump(metadata, f, ensure_ascii=False, indent=2)
-    with open("corpus_catalog.csv", "w", newline="", encoding="utf-8") as f:
+
+    with open(CATALOG_FILE, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["id", "tradition", "language", "type", "path", "url", "md5"])
         writer.writerows(catalog_rows)
 
-=======
-        tid = item["id"]
-        tradition = item["tradition"]
-        lang = item["language"]
-        ftype = item["type"]
-        url = item["url"]
+    logger.info("Сборка корпуса завершена.")
 
-        folder = f"corpus/{tradition.replace('/', '_').replace(' ', '_')}/{tid}"
-        ensure_dir(folder)
 
-        filename = os.path.join(folder, f"{tid}.txt")
-
-        try:
-            data = download_file(url)
-            if b"<html" in data[:150].lower():
-                text = html_to_text(data)
-                text = normalize_text(text)
-                data = text.encode("utf-8")
-        except Exception as e:
-            print(f"FAILED: {tid} — {e}")
-            continue
-
-        with open(filename, "wb") as f:
-            f.write(data)
-
-        h = md5(data)
-
-        meta = {
-            "id": tid,
-            "tradition": tradition,
-            "language": lang,
-            "type": ftype,
-            "url": url,
-            "date_downloaded": datetime.utcnow().isoformat(),
-            "md5": h,
-            "path": filename
-        }
-        metadata.append(meta)
-        catalog_rows.append([tid, tradition, lang, ftype, filename, url, h])
-
-    with open("corpus_metadata.json", "w", encoding="utf-8") as f:
-        json.dump(metadata, f, ensure_ascii=False, indent=2)
-
-    with open("corpus_catalog.csv", "w", newline="", encoding="utf-8") as f:
-        import csv
-        w = csv.writer(f)
-        w.writerow(["id", "tradition", "language", "type", "path", "url", "md5"])
-        for row in catalog_rows:
-            w.writerow(row)
-
-    print("Corpus build COMPLETE.")
->>>>>>> 4a795dfec36636cadf0af882add27aafd964cfab
-
-if __name__ == "__main__":
-    build_corpus()
+def ensure_dir(path: Path):
+    path.mkdir(parents=True, exist_ok=True)
