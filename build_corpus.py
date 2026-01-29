@@ -21,22 +21,18 @@ CORPUS_DIR = Path("corpus")
 METADATA_FILE = CORPUS_DIR / "corpus_metadata.json"
 CATALOG_FILE = CORPUS_DIR / "corpus_catalog.csv"
 
-
 def load_download_list():
     with open(DOWNLOAD_LIST_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
 
-
 def md5(data: bytes) -> str:
     return hashlib.md5(data).hexdigest()
-
 
 def download_file(url: str) -> bytes:
     logger.info(f"Загрузка: {url}")
     response = requests.get(url, timeout=30)
     response.raise_for_status()
     return response.content
-
 
 def html_to_text(html_content: bytes) -> str:
     soup = BeautifulSoup(html_content, "html.parser")
@@ -46,13 +42,16 @@ def html_to_text(html_content: bytes) -> str:
     lines = [line.strip() for line in text.splitlines()]
     return "\n".join(line for line in lines if line)
 
-
 def normalize_text(text: str) -> str:
     text = unicodedata.normalize('NFC', text)
     text = re.sub(r'[ \t]+', ' ', text)
     text = re.sub(r'\n+', '\n', text)
     return text.strip()
 
+def count_words(text: str) -> int:
+    if not text:
+        return 0
+    return len([word for word in text.split() if word.strip()])
 
 def build_corpus():
     ensure_dir(CORPUS_DIR)
@@ -81,11 +80,21 @@ def build_corpus():
                 text = html_to_text(data)
                 text = normalize_text(text)
                 data = text.encode("utf-8")
+            else:
+                try:
+                    text = data.decode("utf-8")
+                    text = normalize_text(text)
+                    data = text.encode("utf-8")
+                except UnicodeDecodeError:
+                    text = ""
 
             filename.parent.mkdir(parents=True, exist_ok=True)
             filename.write_bytes(data)
 
             h = md5(data)
+
+            char_count = len(text)
+            word_count = count_words(text)
 
             meta = {
                 "id": tid,
@@ -98,12 +107,19 @@ def build_corpus():
                 "path": str(filename.resolve())
             }
             metadata.append(meta)
-            catalog_rows.append([tid, tradition, lang, ftype, str(filename.resolve()), url, h])
+            catalog_rows.append([
+                tid, tradition, lang, ftype, str(filename.resolve()), url, h,
+                False, char_count, word_count
+            ])
 
-            logger.info(f"Успешно сохранено: {tid}")
+            logger.info(f"Успешно сохранено: {tid} (символов: {char_count}, слов: {word_count})")
 
         except Exception as e:
             logger.error(f"Не удалось обработать {tid}: {e}")
+            catalog_rows.append([
+                tid, tradition, lang, ftype, "", url, "",
+                True, "-", "-"
+            ])
             continue
 
     with open(METADATA_FILE, "w", encoding="utf-8") as f:
@@ -111,11 +127,13 @@ def build_corpus():
 
     with open(CATALOG_FILE, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["id", "tradition", "language", "type", "path", "url", "md5"])
+        writer.writerow([
+            "id", "tradition", "language", "type", "path", "url", "md5",
+            "availability", "chars", "words"
+        ])
         writer.writerows(catalog_rows)
 
     logger.info("Сборка корпуса завершена.")
-
 
 def ensure_dir(path: Path):
     path.mkdir(parents=True, exist_ok=True)

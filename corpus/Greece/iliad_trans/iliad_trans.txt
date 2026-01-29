@@ -1,5 +1,5 @@
 ﻿The Project Gutenberg eBook of The Iliad
-    
+ 
 This ebook is for the use of anyone anywhere in the United States and
 most other parts of the world at no cost and with almost no restrictions
 whatsoever. You may copy it, give it away or re-use it under the terms
@@ -17,7 +17,7 @@ Annotator: Theodore Alois Buckley
 Translator: Alexander Pope
 
 Release date: July 1, 2004 [eBook #6130]
-                Most recently updated: April 23, 2022
+ Most recently updated: January 18, 2026
 
 Language: English
 
@@ -1226,7 +1226,7 @@ the force of the poet’s imagination, and turns in one place to a
 hearer, in another to a spectator. The course of his verses resembles
 that of the army he describes,
 
-    Οἵδ’ ἄῤ ἴσαν, ὡσεί τε πυρὶ χθὼν πἆσα νέμοιτο.
+ Οἵδ’ ἄῤ ἴσαν, ὡσεί τε πυρὶ χθὼν πἆσα νέμοιτο.
 
 “They pour along like a fire that sweeps the whole earth before it.” It
 is, however, remarkable, that his fancy, which is everywhere vigorous,
@@ -1819,7 +1819,7 @@ one, the course to be taken is obvious.
 
 Some that cannot be so turned, as to preserve their full image by one
 or two words, may have justice done them by circumlocution; as the
-epithet einosiphyllos to a mountain, would appear little or ridiculous
+epithet εἰνοσίφυλλος to a mountain, would appear little or ridiculous
 translated literally “leaf-shaking,” but affords a majestic idea in the
 periphrasis: “the lofty mountain shakes his waving woods.” Others that
 admit of different significations, may receive an advantage from a
@@ -2059,11 +2059,11 @@ supplicates Jupiter to render them sensible of the wrong done to her
 son, by giving victory to the Trojans. Jupiter, granting her suit,
 incenses Juno: between whom the debate runs high, till they are
 reconciled by the address of Vulcan.
-    The time of two-and-twenty days is taken up in this book: nine
-    during the plague, one in the council and quarrel of the princes,
-    and twelve for Jupiter’s stay with the Æthiopians, at whose return
-    Thetis prefers her petition. The scene lies in the Grecian camp,
-    then changes to Chrysa, and lastly to Olympus.
+ The time of two-and-twenty days is taken up in this book: nine
+ during the plague, one in the council and quarrel of the princes,
+ and twelve for Jupiter’s stay with the Æthiopians, at whose return
+ Thetis prefers her petition. The scene lies in the Grecian camp,
+ then changes to Chrysa, and lastly to Olympus.
 
 
 Achilles’ wrath, to Greece the direful spring
@@ -2970,9 +2970,9 @@ which was to make a general muster of the troops, and to divide them
 into their several nations, before they proceeded to battle. This gives
 occasion to the poet to enumerate all the forces of the Greeks and
 Trojans, and in a large catalogue.
-    The time employed in this book consists not entirely of one day.
-    The scene lies in the Grecian camp, and upon the sea-shore; towards
-    the end it removes to Troy.
+ The time employed in this book consists not entirely of one day.
+ The scene lies in the Grecian camp, and upon the sea-shore; towards
+ the end it removes to Troy.
 
 
 Now pleasing sleep had seal’d each mortal eye,
@@ -4160,9 +4160,9 @@ wherein Paris being overcome, he is snatched away in a cloud by Venus,
 and transported to his apartment. She then calls Helen from the walls,
 and brings the lovers together. Agamemnon, on the part of the Grecians,
 demands the restoration of Helen, and the performance of the articles.
-    The three-and-twentieth day still continues throughout this book.
-    The scene is sometimes in the fields before Troy, and sometimes in
-    Troy itself.
+ The three-and-twentieth day still continues throughout this book.
+ The scene is sometimes in the fields before Troy, and sometimes in
+ Troy itself.
 
 
 Thus by their leaders’ care each martial band
@@ -4817,9 +4817,9 @@ of a good general; he reviews the troops, and exhorts the leaders, some
 by praises and others by reproof. Nestor is particularly celebrated for
 his military discipline. The battle joins, and great numbers are slain
 on both sides.
-    The same day continues through this as through the last book (as it
-    does also through the two following, and almost to the end of the
-    seventh book). The scene is wholly in the field before Troy.
+ The same day continues through this as through the last book (as it
+ does also through the two following, and almost to the end of the
+ seventh book). The scene is wholly in the field before Troy.
 
 
 And now Olympus’ shining gates unfold;
@@ -5536,8 +5536,8 @@ In the meantime Æneas is restored to the field, and they overthrow
 several of the Greeks; among the rest Tlepolemus is slain by Sarpedon.
 Juno and Minerva descend to resist Mars; the latter incites Diomed to
 go against that god; he wounds him, and sends him groaning to heaven.
-    The first battle continues through this book. The scene is the same
-    as in the former.
+ The first battle continues through this book. The scene is the same
+ as in the former.
 
 
 But Pallas now Tydides’ soul inspires,[143]
@@ -6789,8 +6789,8 @@ the friendship and hospitality passed between their ancestors, they
 make exchange of their arms. Hector, having performed the orders of
 Helenus, prevails upon Paris to return to the battle, and, taking a
 tender leave of his wife Andromache, hastens again to the field.
-    The scene is first in the field of battle, between the rivers
-    Simois and Scamander, and then changes to Troy.
+ The scene is first in the field of battle, between the rivers
+ Simois and Scamander, and then changes to Troy.
 
 
 Now heaven forsakes the fight: the immortals yield
@@ -7563,11 +7563,11 @@ towers, and defended by a ditch and palisades. Neptune testifies his
 jealousy at this work, but is pacified by a promise from Jupiter. Both
 armies pass the night in feasting but Jupiter disheartens the Trojans
 with thunder, and other signs of his wrath.
-    The three and twentieth day ends with the duel of Hector and Ajax,
-    the next day the truce is agreed; another is taken up in the
-    funeral rites of the slain and one more in building the
-    fortification before the ships. So that somewhat about three days
-    is employed in this book. The scene lies wholly in the field.
+ The three and twentieth day ends with the duel of Hector and Ajax,
+ the next day the truce is agreed; another is taken up in the
+ funeral rites of the slain and one more in building the
+ fortification before the ships. So that somewhat about three days
+ is employed in this book. The scene lies wholly in the field.
 
 
 So spoke the guardian of the Trojan state,
@@ -7883,7 +7883,7 @@ To combat born, and bred amidst alarms:
 I know to shift my ground, remount the car,
 Turn, charge, and answer every call of war;
 To right, to left, the dexterous lance I wield,
-And bear thick battle on my sounding shield/
+And bear thick battle on my sounding shield;
 But open be our fight, and bold each blow;
 I steal no conquest from a noble foe.”
 
@@ -8228,9 +8228,9 @@ their fortifications before the ships,) and gives orders to keep the
 watch all night in the camp, to prevent the enemy from re-embarking and
 escaping by flight. They kindle fires through all the fields, and pass
 the night under arms.
-    The time of seven and twenty days is employed from the opening of
-    the poem to the end of this book. The scene here (except of the
-    celestial machines) lies in the field towards the seashore.
+ The time of seven and twenty days is employed from the opening of
+ the poem to the end of this book. The scene here (except of the
+ celestial machines) lies in the field towards the seashore.
 
 
 Aurora now, fair daughter of the dawn,
@@ -9018,9 +9018,9 @@ moving and pressing speeches, but are rejected with roughness by
 Achilles, who notwithstanding retains Phœnix in his tent. The
 ambassadors return unsuccessfully to the camp, and the troops betake
 themselves to sleep.
-    This book, and the next following, take up the space of one night,
-    which is the twenty-seventh from the beginning of the poem. The
-    scene lies on the sea-shore, the station of the Grecian ships.
+ This book, and the next following, take up the space of one night,
+ which is the twenty-seventh from the beginning of the poem. The
+ scene lies on the sea-shore, the station of the Grecian ships.
 
 
 Thus joyful Troy maintain’d the watch of night;
@@ -9939,7 +9939,7 @@ particularly of Rhesus, and the Thracians who were lately arrived. They
 pass on with success; kill Rhesus, with several of his officers, and
 seize the famous horses of that prince, with which they return in
 triumph to the camp.
-    The same night continues; the scene lies in the two camps.
+ The same night continues; the scene lies in the two camps.
 
 
 All night the chiefs before their vessels lay,
@@ -10709,11 +10709,11 @@ remembered, tending to put Patroclus upon persuading Achilles to fight
 for his countrymen, or at least to permit him to do it, clad in
 Achilles’ armour. Patroclus, on his return, meets Eurypylus also
 wounded, and assists him in that distress.
-    This book opens with the eight-and-twentieth day of the poem, and
-    the same day, with its various actions and adventures is extended
-    through the twelfth, thirteenth, fourteenth, fifteenth, sixteenth,
-    seventeenth, and part of the eighteenth books. The scene lies in
-    the field near the monument of Ilus.
+ This book opens with the eight-and-twentieth day of the poem, and
+ the same day, with its various actions and adventures is extended
+ through the twelfth, thirteenth, fourteenth, fifteenth, sixteenth,
+ seventeenth, and part of the eighteenth books. The scene lies in
+ the field near the monument of Ilus.
 
 
 The saffron morn, with early blushes spread,[219]
@@ -12421,8 +12421,8 @@ being galled by the Locrian slingers and archers, Polydamas advises to
 call a council of war: Hector approves of his advice, but goes first to
 rally the Trojans; upbraids Paris, rejoins Polydamas, meets Ajax again,
 and renews the attack.
-    The eight-and-twentieth day still continues. The scene is between
-    the Grecian wall and the sea-shore.
+ The eight-and-twentieth day still continues. The scene is between
+ the Grecian wall and the sea-shore.
 
 
 When now the Thunderer on the sea-beat coast
@@ -16476,8 +16476,8 @@ thick darkness: the noble prayer of Ajax on that occasion. Menelaus
 sends Antilochus to Achilles, with the news of Patroclus’ death: then
 returns to the fight, where, though attacked with the utmost fury, he
 and Meriones, assisted by the Ajaces, bear off the body to the ships.
-    The time is the evening of the eight-and-twentieth day. The scene
-    lies in the fields before Troy.
+ The time is the evening of the eight-and-twentieth day. The scene
+ lies in the fields before Troy.
 
 
 On the cold earth divine Patroclus spread,
@@ -17434,12 +17434,12 @@ by the Greeks. The Trojans call a council, where Hector and Polydamas
 disagree in their opinions: but the advice of the former prevails, to
 remain encamped in the field. The grief of Achilles over the body of
 Patroclus.
-    Thetis goes to the palace of Vulcan to obtain new arms for her son.
-    The description of the wonderful works of Vulcan: and, lastly, that
-    noble one of the shield of Achilles.
-    The latter part of the nine-and-twentieth day, and the night
-    ensuing, take up this book: the scene is at Achilles’ tent on the
-    sea-shore, from whence it changes to the palace of Vulcan.
+ Thetis goes to the palace of Vulcan to obtain new arms for her son.
+ The description of the wonderful works of Vulcan: and, lastly, that
+ noble one of the shield of Achilles.
+ The latter part of the nine-and-twentieth day, and the night
+ ensuing, take up this book: the scene is at Achilles’ tent on the
+ sea-shore, from whence it changes to the palace of Vulcan.
 
 
 Thus like the rage of fire the combat burns,[250]
@@ -18249,7 +18249,7 @@ his horses, and reproaches them with the death of Patroclus. One of
 them is miraculously endued with voice, and inspired to prophesy his
 fate: but the hero, not astonished by that prodigy, rushes with fury to
 the combat.
-    The thirtieth day. The scene is on the sea-shore.
+ The thirtieth day. The scene is on the sea-shore.
 
 
 Soon as Aurora heaved her Orient head
@@ -18787,7 +18787,7 @@ encounter; but Æneas is preserved by the assistance of Neptune.
 Achilles falls upon the rest of the Trojans, and is upon the point of
 killing Hector, but Apollo conveys him away in a cloud. Achilles
 pursues the Trojans with a great slaughter.
-    The same day continues. The scene is in the field before Troy.
+ The same day continues. The scene is in the field before Troy.
 
 
 Thus round Pelides breathing war and blood
@@ -19447,8 +19447,8 @@ stand, and is conveyed away in a cloud by Apollo; who (to delude
 Achilles) takes upon him Agenor’s shape, and while he pursues him in
 that disguise, gives the Trojans an opportunity of retiring into their
 city.
-    The same day continues. The scene is on the banks and in the stream
-    of Scamander.
+ The same day continues. The scene is on the banks and in the stream
+ of Scamander.
 
 
 And now to Xanthus’ gliding stream they drove,
@@ -20258,8 +20258,8 @@ reach the ears of Andromache, who, ignorant of this, was retired into
 the inner part of the palace: she mounts up to the walls, and beholds
 her dead husband. She swoons at the spectacle. Her excess of grief and
 lamentation.
-    The thirtieth day still continues. The scene lies under the walls,
-    and on the battlements of Troy.
+ The thirtieth day still continues. The scene lies under the walls,
+ and on the battlements of Troy.
 
 
 Thus to their bulwarks, smit with panic fear,
@@ -21006,11 +21006,11 @@ wrestling, the foot-race, the single combat, the discus, the shooting
 with arrows, the darting the javelin: the various descriptions of
 which, and the various success of the several antagonists, make the
 greatest part of the book.
-    In this book ends the thirtieth day. The night following, the ghost
-    of Patroclus appears to Achilles: the one-and-thirtieth day is
-    employed in felling the timber for the pile: the two-and-thirtieth
-    in burning it; and the three-and-thirtieth in the games. The scene
-    is generally on the sea-shore.
+ In this book ends the thirtieth day. The night following, the ghost
+ of Patroclus appears to Achilles: the one-and-thirtieth day is
+ employed in felling the timber for the pile: the two-and-thirtieth
+ in burning it; and the three-and-thirtieth in the games. The scene
+ is generally on the sea-shore.
 
 
 Thus humbled in the dust, the pensive train
@@ -22177,10 +22177,10 @@ compassion, grants his request, detains him one night in his tent, and
 the next morning sends him home with the body: the Trojans run out to
 meet him. The lamentations of Andromache, Hecuba, and Helen, with the
 solemnities of the funeral.
-    The time of twelve days is employed in this book, while the body of
-    Hector lies in the tent of Achilles; and as many more are spent in
-    the truce allowed for his interment. The scene is partly in
-    Achilles’ camp, and partly in Troy.
+ The time of twelve days is employed in this book, while the body of
+ Hector lies in the tent of Achilles; and as many more are spent in
+ the truce allowed for his interment. The scene is partly in
+ Achilles’ camp, and partly in Troy.
 
 
 Now from the finish’d games the Grecian band
@@ -23380,15 +23380,15 @@ Projice tela manu _sanguis meus_’
 when history witnesses that vast convulsions have rent and weakened it
 and the Celtic feeling towards the Stuarts has been rekindled in our
 own days towards the granddaughter of George the Third of Hanover.
-    “Somewhat similar may be seen in the disposition to idolize those
-    great lawgivers of man’s race, who have given expression, in the
-    immortal language of song, to the deeper inspirations of our
-    nature. The thoughts of Homer or of Shakespere are the universal
-    inheritance of the human race. In this mutual ground every man
-    meets his brother, they have been set forth by the providence of
-    God to vindicate for all of us what nature could effect, and that,
-    in these representatives of our race, we might recognize our common
-    benefactors.’—_Doctrine of the Incarnation_, pp. 9, 10.
+ “Somewhat similar may be seen in the disposition to idolize those
+ great lawgivers of man’s race, who have given expression, in the
+ immortal language of song, to the deeper inspirations of our
+ nature. The thoughts of Homer or of Shakespere are the universal
+ inheritance of the human race. In this mutual ground every man
+ meets his brother, they have been set forth by the providence of
+ God to vindicate for all of us what nature could effect, and that,
+ in these representatives of our race, we might recognize our common
+ benefactors.’—_Doctrine of the Incarnation_, pp. 9, 10.
 
  [2] Εἰκος δέ μιν ἦν καὶ μνημόσυνα πάντων γράφεσθαι. Vit. Hom. in
  Schweigh. Herodot. t. iv. p. 299, sq. § 6. I may observe that this
@@ -23402,7 +23402,7 @@ own days towards the granddaughter of George the Third of Hanover.
  observes, “The first poets sang their own verses.” Sextus Empir. adv.
  Mus. p. 360 ed. Fabric. Οὐ ἀμελει γέ τοι καὶ οἰ ποιηταὶ μελοποιοὶ
  λέγονται, καὶ τὰ Ὁμήρου ἕπη τὸ πάλαι πρὸς λύραν ἤδετο.
-    “The voice,” observes Heeren, “was always accompanied by some
+ “The voice,” observes Heeren, “was always accompanied by some
  instrument. The bard was provided with a harp on which he played a
  prelude, to elevate and inspire his mind, and with which he
  accompanied the song when begun. His voice probably preserved a medium
@@ -23555,13 +23555,13 @@ _See_ Thucyd. iii, 104.
  judges of the perfection to which the invention and the memory
  combined may attain in a simpler age, and among a more single minded
  people?—Quarterly Review, _l. c._, p. 143, sqq.
-    Heeren steers between the two opinions, observing that, “The
-    Dschungariade of the Calmucks is said to surpass the poems of Homer
-    in length, as much as it stands beneath them in merit, and yet it
-    exists only in the memory of a people which is not unacquainted
-    with writing. But the songs of a nation are probably the last
-    things which are committed to writing, for the very reason that
-    they are remembered.”— _Ancient Greece_. p. 100.
+ Heeren steers between the two opinions, observing that, “The
+ Dschungariade of the Calmucks is said to surpass the poems of Homer
+ in length, as much as it stands beneath them in merit, and yet it
+ exists only in the memory of a people which is not unacquainted
+ with writing. But the songs of a nation are probably the last
+ things which are committed to writing, for the very reason that
+ they are remembered.”— _Ancient Greece_. p. 100.
 
  [26] Vol. II p. 198, sqq.
 
@@ -24308,17 +24308,17 @@ Impetuous winds.”
  appreciating morbid symptoms. It was Podaleirius who first noticed the
  glaring eyes and disturbed deportment which preceded the suicide of
  Ajax.
-    “Galen appears uncertain whether Asklepius (as well as Dionysus)
-    was originally a god, or whether he was first a man and then became
-    afterwards a god; but Apollodorus professed to fix the exact date
-    of his apotheosis. Throughout all the historical ages the
-    descendants of Asklepius were numerous and widely diffused. The
-    many families or gentes, called Asklepiads, who devoted themselves
-    to the study and practice of medicine, and who principally dwelt
-    near the temples of Asklepius, whither sick and suffering men came
-    to obtain relief—all recognized the god not merely as the object of
-    their common worship, but also as their actual progenitor.”—Grote
-    vol. i. p. 248.
+ “Galen appears uncertain whether Asklepius (as well as Dionysus)
+ was originally a god, or whether he was first a man and then became
+ afterwards a god; but Apollodorus professed to fix the exact date
+ of his apotheosis. Throughout all the historical ages the
+ descendants of Asklepius were numerous and widely diffused. The
+ many families or gentes, called Asklepiads, who devoted themselves
+ to the study and practice of medicine, and who principally dwelt
+ near the temples of Asklepius, whither sick and suffering men came
+ to obtain relief—all recognized the god not merely as the object of
+ their common worship, but also as their actual progenitor.”—Grote
+ vol. i. p. 248.
 
  [133]
 “The plant she bruises with a stone, and stands
@@ -24589,9 +24589,9 @@ Dryden’s Virgil, ii.658
  [176] _The wanton courser_.
 
 “Come destrier, che da le regie stalle
-    Ove a l’usa de l’arme si riserba,
+ Ove a l’usa de l’arme si riserba,
 Fugge, e libero al fiu per largo calle
-    Va tragl’ armenti, o al fiume usato, o a l’herba.”
+ Va tragl’ armenti, o al fiume usato, o a l’herba.”
 
 Gier, Lib. ix. 75.
 
@@ -25112,35 +25112,35 @@ Dryden’s Virgil, vii. 809.
  [243] _His best beloved_. The following elegant remarks of Thirlwall
  (Greece, vol. i, p. 176 seq.) well illustrate the character of the
  friendship subsisting between these two heroes—
-    “One of the noblest and most amiable sides of the Greek character,
-    is the readiness with which it lent itself to construct intimate
-    and durable friendships, and this is a feature no less prominent in
-    the earliest than in later times. It was indeed connected with the
-    comparatively low estimation in which female society was held; but
-    the devotedness and constancy with which these attachments were
-    maintained, was not the less admirable and engaging. The heroic
-    companions whom we find celebrated partly by Homer and partly in
-    traditions which, if not of equal antiquity, were grounded on the
-    same feeling, seem to have but one heart and soul, with scarcely a
-    wish or object apart, and only to live as they are always ready to
-    die for one another. It is true that the relation between them is
-    not always one of perfect equality; but this is a circumstance
-    which, while it often adds a peculiar charm to the poetical
-    description, detracts little from the dignity of the idea which it
-    presents. Such were the friendships of Hercules and Iolaus, of
-    Theseus and Pirithous, of Orestes and Pylades; and though These may
-    owe the greater part of their fame to the later epic or even
-    dramatic poetry, the moral groundwork undoubtedly subsisted in the
-    period to which the traditions are referred. The argument of the
-    Iliad mainly turns on the affection of Achilles for Patroclus,
-    whose love for the greater hero is only tempered by reverence for
-    his higher birth and his unequalled prowess. But the mutual regard
-    which united Idomeneus and Meriones, Diomedes and Sthenelus,
-    though, as the persons themselves are less important, it is kept
-    more in the back-ground, is manifestly viewed by the poet in the
-    same light. The idea of a Greek hero seems not to have been thought
-    complete, without such a brother in arms by his side.”—Thirlwall,
-    Greece, vol. i. p. 176, seq.
+ “One of the noblest and most amiable sides of the Greek character,
+ is the readiness with which it lent itself to construct intimate
+ and durable friendships, and this is a feature no less prominent in
+ the earliest than in later times. It was indeed connected with the
+ comparatively low estimation in which female society was held; but
+ the devotedness and constancy with which these attachments were
+ maintained, was not the less admirable and engaging. The heroic
+ companions whom we find celebrated partly by Homer and partly in
+ traditions which, if not of equal antiquity, were grounded on the
+ same feeling, seem to have but one heart and soul, with scarcely a
+ wish or object apart, and only to live as they are always ready to
+ die for one another. It is true that the relation between them is
+ not always one of perfect equality; but this is a circumstance
+ which, while it often adds a peculiar charm to the poetical
+ description, detracts little from the dignity of the idea which it
+ presents. Such were the friendships of Hercules and Iolaus, of
+ Theseus and Pirithous, of Orestes and Pylades; and though These may
+ owe the greater part of their fame to the later epic or even
+ dramatic poetry, the moral groundwork undoubtedly subsisted in the
+ period to which the traditions are referred. The argument of the
+ Iliad mainly turns on the affection of Achilles for Patroclus,
+ whose love for the greater hero is only tempered by reverence for
+ his higher birth and his unequalled prowess. But the mutual regard
+ which united Idomeneus and Meriones, Diomedes and Sthenelus,
+ though, as the persons themselves are less important, it is kept
+ more in the back-ground, is manifestly viewed by the poet in the
+ same light. The idea of a Greek hero seems not to have been thought
+ complete, without such a brother in arms by his side.”—Thirlwall,
+ Greece, vol. i. p. 176, seq.
 
  [244]
 “As hungry wolves with raging appetite,
@@ -25611,31 +25611,31 @@ Dryden.
 
  [295] In reference to the whole scene that follows, the remarks of
  Coleridge are well worth reading:—
-    “By a close study of life, and by a true and natural mode of
-    expressing everything, Homer was enabled to venture upon the most
-    peculiar and difficult situations, and to extricate himself from
-    them with the completest success. The whole scene between Achilles
-    and Priam, when the latter comes to the Greek camp for the purpose
-    of redeeming the body of Hector, is at once the most profoundly
-    skilful, and yet the simplest and most affecting passage in the
-    Iliad. Quinctilian has taken notice of the following speech of
-    Priam, the rhetorical artifice of which is so transcendent, that if
-    genius did not often, especially in oratory, unconsciously fulfil
-    the most subtle precepts of criticism, we might be induced, on this
-    account alone, to consider the last book of the Iliad as what is
-    called spurious, in other words, of later date than the rest of the
-    poem. Observe the exquisite taste of Priam in occupying the mind of
-    Achilles, from the outset, with the image of his father; in
-    gradually introducing the parallel of his own situation; and,
-    lastly, mentioning Hector’s name when he perceives that the hero is
-    softened, and then only in such a manner as to flatter the pride of
-    the conqueror. The ego d’eleeinoteros per, and the apusato aecha
-    geronta, are not exactly like the tone of the earlier parts of the
-    Iliad. They are almost too fine and pathetic. The whole passage
-    defies translation, for there is that about the Greek which has no
-    name, but which is of so fine and ethereal a subtlety that it can
-    only be felt in the original, and is lost in an attempt to
-    transfuse it into another language.”—Coleridge, p. 195.
+ “By a close study of life, and by a true and natural mode of
+ expressing everything, Homer was enabled to venture upon the most
+ peculiar and difficult situations, and to extricate himself from
+ them with the completest success. The whole scene between Achilles
+ and Priam, when the latter comes to the Greek camp for the purpose
+ of redeeming the body of Hector, is at once the most profoundly
+ skilful, and yet the simplest and most affecting passage in the
+ Iliad. Quinctilian has taken notice of the following speech of
+ Priam, the rhetorical artifice of which is so transcendent, that if
+ genius did not often, especially in oratory, unconsciously fulfil
+ the most subtle precepts of criticism, we might be induced, on this
+ account alone, to consider the last book of the Iliad as what is
+ called spurious, in other words, of later date than the rest of the
+ poem. Observe the exquisite taste of Priam in occupying the mind of
+ Achilles, from the outset, with the image of his father; in
+ gradually introducing the parallel of his own situation; and,
+ lastly, mentioning Hector’s name when he perceives that the hero is
+ softened, and then only in such a manner as to flatter the pride of
+ the conqueror. The ego d’eleeinoteros per, and the apusato aecha
+ geronta, are not exactly like the tone of the earlier parts of the
+ Iliad. They are almost too fine and pathetic. The whole passage
+ defies translation, for there is that about the Greek which has no
+ name, but which is of so fine and ethereal a subtlety that it can
+ only be felt in the original, and is lost in an attempt to
+ transfuse it into another language.”—Coleridge, p. 195.
 
  [296] “Achilles’ ferocious treatment of the corpse of Hector cannot
  but offend as referred to the modern standard of humanity. The heroic
@@ -25665,19 +25665,19 @@ Merrick’s Tryphiodorus, v. 675.
 
  [298] The following observations of Coleridge furnish a most gallant
  and interesting view of Helen’s character—
-    “Few things are more interesting than to observe how the same hand
-    that has given us the fury and inconsistency of Achilles, gives us
-    also the consummate elegance and tenderness of Helen. She is
-    through the Iliad a genuine lady, graceful in motion and speech,
-    noble in her associations, full of remorse for a fault for which
-    higher powers seem responsible, yet grateful and affectionate
-    towards those with whom that fault had committed her. I have always
-    thought the following speech in which Helen laments Hector, and
-    hints at her own invidious and unprotected situation in Troy, as
-    almost the sweetest passage in the poem. It is another striking
-    instance of that refinement of feeling and softness of tone which
-    so generally distinguish the last book of the Iliad from the
-    rest.”—Classic Poets, p. 198, seq.
+ “Few things are more interesting than to observe how the same hand
+ that has given us the fury and inconsistency of Achilles, gives us
+ also the consummate elegance and tenderness of Helen. She is
+ through the Iliad a genuine lady, graceful in motion and speech,
+ noble in her associations, full of remorse for a fault for which
+ higher powers seem responsible, yet grateful and affectionate
+ towards those with whom that fault had committed her. I have always
+ thought the following speech in which Helen laments Hector, and
+ hints at her own invidious and unprotected situation in Troy, as
+ almost the sweetest passage in the poem. It is another striking
+ instance of that refinement of feeling and softness of tone which
+ so generally distinguish the last book of the Iliad from the
+ rest.”—Classic Poets, p. 198, seq.
 
  [299] “And here we part with Achilles at the moment best calculated to
  exalt and purify our impression of his character. We had accompanied
@@ -25687,11 +25687,11 @@ Merrick’s Tryphiodorus, v. 675.
  great qualities is chastened by the reflection that, within a few
  short days the mighty being in whom they were united was himself to be
  suddenly cut off in the full vigour of their exercise.
-    The frequent and touching allusions, interspersed throughout the
-    Iliad, to the speedy termination of its hero’s course, and the
-    moral on the vanity of human life which they indicate, are among
-    the finest evidences of the spirit of ethic unity by which the
-    whole framework of the poem is united.”—Mure, vol. i. p 201.
+ The frequent and touching allusions, interspersed throughout the
+ Iliad, to the speedy termination of its hero’s course, and the
+ moral on the vanity of human life which they indicate, are among
+ the finest evidences of the spirit of ethic unity by which the
+ whole framework of the poem is united.”—Mure, vol. i. p 201.
 
  [300] Cowper says,—“I cannot take my leave of this noble poem without
  expressing how much I am struck with the plain conclusion of it. It is
@@ -25703,12 +25703,10 @@ Merrick’s Tryphiodorus, v. 675.
 
 
 
-
-
 *** END OF THE PROJECT GUTENBERG EBOOK THE ILIAD ***
 
 
-    
+ 
 
 Updated editions will replace the previous one—the old editions will
 be renamed.
@@ -25806,14 +25804,14 @@ on which the phrase “Project Gutenberg” appears, or with which the
 phrase “Project Gutenberg” is associated) is accessed, displayed,
 performed, viewed, copied or distributed:
 
-    This eBook is for the use of anyone anywhere in the United States and most
-    other parts of the world at no cost and with almost no restrictions
-    whatsoever. You may copy it, give it away or re-use it under the terms
-    of the Project Gutenberg License included with this eBook or online
-    at www.gutenberg.org. If you
-    are not located in the United States, you will have to check the laws
-    of the country where you are located before using this eBook.
-  
+ This eBook is for the use of anyone anywhere in the United States and most
+ other parts of the world at no cost and with almost no restrictions
+ whatsoever. You may copy it, give it away or re-use it under the terms
+ of the Project Gutenberg License included with this eBook or online
+ at www.gutenberg.org. If you
+ are not located in the United States, you will have to check the laws
+ of the country where you are located before using this eBook.
+ 
 1.E.2. If an individual Project Gutenberg™ electronic work is
 derived from texts not protected by U.S. copyright law (does not
 contain a notice indicating that it is posted with permission of the
@@ -25863,35 +25861,35 @@ unless you comply with paragraph 1.E.8 or 1.E.9.
 access to or distributing Project Gutenberg™ electronic works
 provided that:
 
-    • You pay a royalty fee of 20% of the gross profits you derive from
-        the use of Project Gutenberg™ works calculated using the method
-        you already use to calculate your applicable taxes. The fee is owed
-        to the owner of the Project Gutenberg™ trademark, but he has
-        agreed to donate royalties under this paragraph to the Project
-        Gutenberg Literary Archive Foundation. Royalty payments must be paid
-        within 60 days following each date on which you prepare (or are
-        legally required to prepare) your periodic tax returns. Royalty
-        payments should be clearly marked as such and sent to the Project
-        Gutenberg Literary Archive Foundation at the address specified in
-        Section 4, “Information about donations to the Project Gutenberg
-        Literary Archive Foundation.”
-    
-    • You provide a full refund of any money paid by a user who notifies
-        you in writing (or by e-mail) within 30 days of receipt that s/he
-        does not agree to the terms of the full Project Gutenberg™
-        License. You must require such a user to return or destroy all
-        copies of the works possessed in a physical medium and discontinue
-        all use of and all access to other copies of Project Gutenberg™
-        works.
-    
-    • You provide, in accordance with paragraph 1.F.3, a full refund of
-        any money paid for a work or a replacement copy, if a defect in the
-        electronic work is discovered and reported to you within 90 days of
-        receipt of the work.
-    
-    • You comply with all other terms of this agreement for free
-        distribution of Project Gutenberg™ works.
-    
+ • You pay a royalty fee of 20% of the gross profits you derive from
+ the use of Project Gutenberg™ works calculated using the method
+ you already use to calculate your applicable taxes. The fee is owed
+ to the owner of the Project Gutenberg™ trademark, but he has
+ agreed to donate royalties under this paragraph to the Project
+ Gutenberg Literary Archive Foundation. Royalty payments must be paid
+ within 60 days following each date on which you prepare (or are
+ legally required to prepare) your periodic tax returns. Royalty
+ payments should be clearly marked as such and sent to the Project
+ Gutenberg Literary Archive Foundation at the address specified in
+ Section 4, “Information about donations to the Project Gutenberg
+ Literary Archive Foundation.”
+ 
+ • You provide a full refund of any money paid by a user who notifies
+ you in writing (or by e-mail) within 30 days of receipt that s/he
+ does not agree to the terms of the full Project Gutenberg™
+ License. You must require such a user to return or destroy all
+ copies of the works possessed in a physical medium and discontinue
+ all use of and all access to other copies of Project Gutenberg™
+ works.
+ 
+ • You provide, in accordance with paragraph 1.F.3, a full refund of
+ any money paid for a work or a replacement copy, if a defect in the
+ electronic work is discovered and reported to you within 90 days of
+ receipt of the work.
+ 
+ • You comply with all other terms of this agreement for free
+ distribution of Project Gutenberg™ works.
+ 
 
 1.E.9. If you wish to charge a fee or distribute a Project
 Gutenberg™ electronic work or group of works on different terms than
@@ -26054,5 +26052,3 @@ This website includes information about Project Gutenberg™,
 including how to make donations to the Project Gutenberg Literary
 Archive Foundation, how to help produce our new eBooks, and how to
 subscribe to our email newsletter to hear about new eBooks.
-
-
