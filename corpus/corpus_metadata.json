@@ -5,7 +5,7 @@
     "language": "English",
     "type": "translation",
     "url": "http://www.sacred-texts.com/hin/sv.htm",
-    "date_downloaded": "2026-01-29T04:38:02.510163",
+    "date_downloaded": "2026-01-29T06:52:41.008265",
     "md5": "c4fcb94529fbf2e59aa8956989b96566",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\India_Vedic\\samaveda_trans\\samaveda_trans.txt"
   },
@@ -15,7 +15,7 @@
     "language": "English",
     "type": "translation",
     "url": "http://www.sacred-texts.com/hin/av.htm",
-    "date_downloaded": "2026-01-29T04:38:04.405153",
+    "date_downloaded": "2026-01-29T06:52:42.728587",
     "md5": "dc451d6b4dc47f7e5e568210313b0577",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\India_Vedic\\atharvaveda_trans\\atharvaveda_trans.txt"
   },
@@ -25,7 +25,7 @@
     "language": "English",
     "type": "translation",
     "url": "http://www.sacred-texts.com/hin/sbe01/index.htm",
-    "date_downloaded": "2026-01-29T04:38:04.964815",
+    "date_downloaded": "2026-01-29T06:52:43.292333",
     "md5": "857134c17dc978544f42ab537f5300fc",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\India_Vedic\\upanishads_trans\\upanishads_trans.txt"
   },
@@ -35,7 +35,7 @@
     "language": "English",
     "type": "translation",
     "url": "http://www.sacred-texts.com/hin/maha/index.htm",
-    "date_downloaded": "2026-01-29T04:38:05.504090",
+    "date_downloaded": "2026-01-29T06:52:43.873837",
     "md5": "328655670b26a67bb418d435d9f9a050",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\India_Epic\\mahabharata_trans\\mahabharata_trans.txt"
   },
@@ -45,7 +45,7 @@
     "language": "English",
     "type": "translation",
     "url": "http://www.sacred-texts.com/hin/rama/index.htm",
-    "date_downloaded": "2026-01-29T04:38:06.126758",
+    "date_downloaded": "2026-01-29T06:52:44.532613",
     "md5": "e9db1b58c41e3c4a8cb7def2fac9552c",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\India_Epic\\ramayana_trans\\ramayana_trans.txt"
   },
@@ -55,7 +55,7 @@
     "language": "English",
     "type": "translation",
     "url": "http://www.sacred-texts.com/hin/gita/index.htm",
-    "date_downloaded": "2026-01-29T04:38:07.066886",
+    "date_downloaded": "2026-01-29T06:52:45.084825",
     "md5": "a2bf10e209c8291390ffb7d8ed28e8f3",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\India_Vedic\\bhagavad_gita_trans\\bhagavad_gita_trans.txt"
   },
@@ -65,7 +65,7 @@
     "language": "Pali",
     "type": "original",
     "url": "https://suttacentral.net/dhp/pi",
-    "date_downloaded": "2026-01-29T04:38:07.488316",
+    "date_downloaded": "2026-01-29T06:52:45.393717",
     "md5": "602a6f5be0a086903057137bf4f71d5a",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\Buddhism_Pali\\dhammapada_orig\\dhammapada_orig.txt"
   },
@@ -75,7 +75,7 @@
     "language": "English",
     "type": "translation",
     "url": "https://suttacentral.net/dhp/en",
-    "date_downloaded": "2026-01-29T04:38:07.841348",
+    "date_downloaded": "2026-01-29T06:52:45.703391",
     "md5": "602a6f5be0a086903057137bf4f71d5a",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\Buddhism_Pali\\dhammapada_trans\\dhammapada_trans.txt"
   },
@@ -85,7 +85,7 @@
     "language": "Pali",
     "type": "original",
     "url": "https://suttacentral.net/mn/pi",
-    "date_downloaded": "2026-01-29T04:38:08.229862",
+    "date_downloaded": "2026-01-29T06:52:46.021099",
     "md5": "602a6f5be0a086903057137bf4f71d5a",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\Buddhism_Pali\\mn_orig\\mn_orig.txt"
   },
@@ -95,7 +95,7 @@
     "language": "English",
     "type": "translation",
     "url": "https://suttacentral.net/mn/en",
-    "date_downloaded": "2026-01-29T04:38:08.587586",
+    "date_downloaded": "2026-01-29T06:52:46.399478",
     "md5": "602a6f5be0a086903057137bf4f71d5a",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\Buddhism_Pali\\mn_trans\\mn_trans.txt"
   },
@@ -105,7 +105,7 @@
     "language": "English",
     "type": "translation",
     "url": "http://www.sacred-texts.com/ane/eog/index.htm",
-    "date_downloaded": "2026-01-29T04:38:16.778930",
+    "date_downloaded": "2026-01-29T06:53:13.405109",
     "md5": "244b128d846be049310069c4d38fb1ed",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\Mesopotamia\\gilgamesh_trans\\gilgamesh_trans.txt"
   },
@@ -115,7 +115,7 @@
     "language": "English",
     "type": "translation",
     "url": "http://www.sacred-texts.com/egy/pyt/index.htm",
-    "date_downloaded": "2026-01-29T04:38:17.073564",
+    "date_downloaded": "2026-01-29T06:53:13.721815",
     "md5": "f66782a1ea7c10f7a5962b0c8ed824f9",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\Egypt\\pyramid_texts_trans\\pyramid_texts_trans.txt"
   },
@@ -125,7 +125,7 @@
     "language": "English",
     "type": "translation",
     "url": "http://www.sacred-texts.com/egy/ebod/index.htm",
-    "date_downloaded": "2026-01-29T04:38:17.335316",
+    "date_downloaded": "2026-01-29T06:53:14.031418",
     "md5": "8df637e3832dfba46555b53d806ada8b",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\Egypt\\book_of_dead_trans\\book_of_dead_trans.txt"
   },
@@ -135,7 +135,7 @@
     "language": "English",
     "type": "translation",
     "url": "https://www.gutenberg.org/cache/epub/6130/pg6130.txt",
-    "date_downloaded": "2026-01-29T04:38:18.965636",
+    "date_downloaded": "2026-01-29T06:53:15.487836",
     "md5": "9906433493df452299c18ddccd89daf2",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\Greece\\iliad_trans\\iliad_trans.txt"
   },
@@ -145,7 +145,7 @@
     "language": "English",
     "type": "translation",
     "url": "https://www.gutenberg.org/cache/epub/1727/pg1727.txt",
-    "date_downloaded": "2026-01-29T04:38:20.236911",
+    "date_downloaded": "2026-01-29T06:53:16.736829",
     "md5": "ec5f12a8ce2df9528b490f4227a3bb86",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\Greece\\odyssey_trans\\odyssey_trans.txt"
   },
@@ -155,7 +155,7 @@
     "language": "English",
     "type": "translation",
     "url": "http://www.sacred-texts.com/neu/poe/index.htm",
-    "date_downloaded": "2026-01-29T04:38:20.540423",
+    "date_downloaded": "2026-01-29T06:53:17.035622",
     "md5": "1ec20e0f827b8029cb04c69e42386dfe",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\Norse\\poetic_edda_trans\\poetic_edda_trans.txt"
   },
@@ -165,7 +165,7 @@
     "language": "English",
     "type": "translation",
     "url": "http://www.sacred-texts.com/bib/cmt/index.htm",
-    "date_downloaded": "2026-01-29T04:38:21.460370",
+    "date_downloaded": "2026-01-29T06:53:17.821094",
     "md5": "a249a00e71df7fb0be436ecbd5c477d4",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\Christianity\\new_testament_trans\\new_testament_trans.txt"
   },
@@ -175,7 +175,7 @@
     "language": "English",
     "type": "translation",
     "url": "http://www.sacred-texts.com/afr/yor/index.htm",
-    "date_downloaded": "2026-01-29T04:38:23.051631",
+    "date_downloaded": "2026-01-29T06:53:19.389536",
     "md5": "8a3d5aee78ec0bf3c93112fd5b77dcae",
     "path": "C:\\Users\\finic\\Desktop\\MythoSemantic\\corpus\\Africa_Yoruba\\yoruba_trans\\yoruba_trans.txt"
   }
